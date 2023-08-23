@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ECF2F8;
+    font-weight:500px;
+    font-family:"Barlow Semi Condensed", sans-serif;
+    width: 100vw;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    display: grid;
+    gap: 1.5rem;
+   margin-top: 30px;
+    height:100%;
+    width: 80%;
+
+}
+
+.main-1{
+    background-color: blueviolet;
+    background-image: url("bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+    color:white;
+    padding:30px;
+     border-radius:10px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+}
+.main-a{
+   display:flex; 
+    gap:1rem;
+
+}
+
+.profilename span{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.main-a img{
+    border-radius: 50%;
+    width:1.5rem;
+}
+.profilename h2{
+    font-size:1rem;
+    font-weight:500px;
+    color:white;
+}
+
+.main-a p{
+    font-weight:none;
+    color:white;
+    opacity: 1;
+}
+
+
+.main-1 p:first-of-type{
+    font-size:1.25rem;
+    line-height:1.2;
+    /* opacity: 0.9; */
+
+}
+
+.main-1 p:last-of-type{
+    opacity: 0.7;
+}
+
+
+.main-2{
+    background-color: #48556A;
+    color:white;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column:3/4;
+    grid-row:1/2;
+    
+}
+
+
+.main-2 p:first-of-type{
+    font-size:1.25rem;
+    line-height:1.2;
+    /* opacity: 0.9; */
+
+}
+.main-2 p:last-of-type{
+    opacity: 0.7;
+}
+
+.main-3{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column:1/2;
+    grid-row:2/3;
+
+}
+
+.main-3 p:first-of-type{
+    font-size:1.25rem;
+    line-height:1.2;
+    opacity: 0.9;
+    
+
+}
+.main-3 p:last-of-type{
+    opacity: 0.7;
+}
+
+
+.main-4{
+    background-color:#19212E;
+    color:white;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column: 2/4;
+    grid-row: 2/3;
+   
+    
+}
+
+.main-4 p:first-of-type{
+    font-size:1.25rem;
+    line-height:1.2;
+    /* opacity: 0.9; */
+
+}
+.main-4 p:last-of-type{
+    opacity: 0.7;
+}
+
+.main-5{
+    background-color: white;
+    padding: 30px;
+    height: 96vh;
+    width: 18vw;
+    border-radius: 10px;
+    grid-column:4/5;
+    grid-row: 1/3;
+
+
+}
+
+.main-5 p:first-of-type{
+    font-size:1.25rem;
+    line-height:1.2;
+    opacity: 0.9;
+
+}
+.main-5 p:last-of-type{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
